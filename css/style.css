@@ -1,0 +1,202 @@
+.box-sized{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.www-wrapper{
+	width: 420px;
+	height: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -175px 0 0 -210px;
+}
+.mac{
+	width: 420px;
+	height: 300px;
+	border-radius: 15px 15px;
+	border: 20px solid #1E3336;
+	background: #FFF;
+}
+.mac-bottom{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 54px;
+	left: 50%;
+	border-radius: 50%;
+	margin-left: -6px;
+}
+.apple-topleft,.apple-topright,.apple-bottomleft,.apple-bottomright,.apple-leaf,.apple-circleleft,.apple-circleright,.apple-bite,.apple-topMask,.apple-bottomMask,.apple-filler1{
+	background:#eaf5ff;
+	position:absolute;
+}
+.apple-filler1{
+	width:6px;
+	height:18px;
+	bottom:2.5px;
+	left:7px;
+	z-index:1;
+}
+.apple-bite{
+	background: #1E3336;
+	width:11px;
+	height:11px;
+	border-radius:11px;
+	left:13px;
+	top:9px;
+	z-index:2;
+}
+.apple-topMask{
+	width:6px;
+	height:6px;
+	top:1px;
+	left:4.5px;
+	z-index:2;
+	background: #1E3336;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-border-bottom-right-radius: 9px 5px;
+	-moz-border-radius-bottomright: 9px 5px;
+	border-bottom-right-radius: 9px 5px;
+}
+.apple-bottomMask{
+	width:7.5px;
+	z-index:2;
+	height:7.5px;
+	top:24px;
+	left:6px;
+	background: #1E3336;
+	-webkit-border-radius:9px;
+	-moz-border-radius:9px;
+	border-radius:9px;
+}
+.apple-topleft{
+	width:8.5px;
+	height:7.5px;
+	-webkit-border-top-left-radius:7.5px 7.5px;
+	-moz-border-radius-topleft:7.5px 7.5px;
+	border-top-left-radius:7.5px 7.5px;
+	-webkit-border-top-right-radius:2.5px;
+	-moz-border-radius-topright:2.5px;
+	border-top-right-radius:2.5px;
+	top:7px;
+	left:0;
+}
+.apple-bottomleft{
+	width:7px;
+	height:11.5px;
+	bottom:2px;
+	left:0;
+	-webkit-border-bottom-left-radius:7px 11.5px;
+	-moz-border-radius-bottomleft:7px 11.5px;
+	border-bottom-left-radius:7px 11.5px;
+}
+.apple-topright{
+	width:8px;
+	height:7px;
+	-webkit-border-top-right-radius:7.5px 7.5px;
+	-moz-border-radius-topright:7.5px 7.5px;
+	border-top-right-radius:7.5px 7.5px;
+	-webkit-border-top-left-radius:3px 2.5px;
+	-moz-border-radius-topleft:3px 2.5px;
+	border-top-left-radius:3px 2.5px;
+	top:6.5px;
+	left:11px;
+}
+.apple-bottomright{
+	width:7px;
+	height:11.5px;
+	bottom:2px;
+	left:12px;
+	-webkit-border-bottom-right-radius:7px 11.5px;
+	-moz-border-radius-bottomright:7px 11.5px;
+	border-bottom-right-radius:7px 11.5px;
+}
+.apple-circleleft{
+	bottom:2px;
+	left:5px;
+	width:5px;
+	height:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.apple-circleright{
+	bottom:2px;
+	left:10px;
+	width:5px;
+	height:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.apple-leaf{
+	width:5px;
+	height:6px;
+	-webkit-border-top-left-radius:10px 11px;
+	-webkit-border-bottom-right-radius:10px 11px;
+	-webkit-border-bottom-left-radius:1px;
+	-webkit-border-top-right-radius:1px;
+	-moz-border-radius-topleft:10px 11px;
+	-moz-border-radius-bottomright:10px 11px;
+	-moz-border-radius-bottomleft:1px;
+	-moz-border-radius-topright:1px;
+	border-top-left-radius:10px 11px;
+	border-bottom-right-radius:10px 11px;
+	border-bottom-left-radius:1px;
+	border-top-right-radius:1px;
+	top:-1px;
+	left:7.5px;
+	z-index:3;
+	background-image:-o-linear-gradient(top,#eaf5ff,#d0d5dd);
+	background-image:-moz-linear-gradient(top,#eaf5ff,#d0d5dd);
+	background-image:-webkit-linear-gradient(top,#eaf5ff,#d0d5dd);
+	background-image:-ms-linear-gradient(top,#eaf5ff,#d0d5dd);
+	background-image:linear-gradient(to bottom,#eaf5ff,#d0d5dd);
+}
+.apple{
+	margin: -7px auto 0 auto;
+	transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	width:22px;
+	height:27px;
+	position:relative;
+}
+.mac-stand{
+	width: 70px;
+	height: 30px;
+	background: #DDD;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -33px;
+}
+.mac-stand:before{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	border-bottom: 10px solid #D2D2D2;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    height: 0;
+    width: 70px;
+    margin-left: -3px;
+}
+.mac-stand:after{
+	content: "";
+	width: 110px;
+	height: 10px;
+	background: #BBB;
+	position: absolute;
+	bottom: -20px;
+	margin-left: -20px;
+	-webkit-border-top-left-radius:10px 11px;
+	-webkit-border-top-right-radius:10px 11px;
+	-moz-border-radius-topleft:10px 11px;
+	-moz-border-radius-topright:10px 11px;
+	border-top-left-radius:10px 11px;
+	border-top-right-radius:10px 11px;
+}
