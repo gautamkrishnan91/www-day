@@ -270,7 +270,7 @@ ul.things>li:nth-child(even){
 	height:45px;
 	width:70px;
 	border-radius: 90px 90px 0 0;
-	border: 5px solid #EEE;
+	border: 5px solid #fff;
 	border-bottom: 0;
 }
 .headphones-outer:before{
@@ -297,7 +297,7 @@ ul.things>li:nth-child(even){
 .headphones-ear{
 	width: 15px;
 	height: 25px;
-	background: #EEE;
+	background: #fff;
 	border-radius: 50px 0 0 50px;
 	position: absolute;
 	z-index: 2;
@@ -307,7 +307,7 @@ ul.things>li:nth-child(even){
 	content: "";
 	width: 15px;
 	height: 25px;
-	background: #EEE;
+	background: #fff;
 	border-radius: 50px 0 0 50px;
 	position: absolute;
 	z-index: 2;
@@ -486,4 +486,319 @@ ul.things>li:nth-child(even){
 	margin: 39px 0 0 31px;
 	border-radius: 50%;
 	z-index: 5;
+}
+
+.ticket{
+	width: 109px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	margin-top: -36px;
+}
+.ticket-left{
+	width: 110px;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	margin: 10px;
+}
+.ticket-left:before{
+	content: "";
+	position: absolute;
+	height: 6px;
+	width: 3px;
+	border-radius: 0 6px 6px 0;
+	background: #93e5b6;
+	margin-top: 2px;
+	box-shadow: 0 8px 0 #93e5b6, 0 16px 0 #93e5b6, 0 24px 0 #93e5b6, 0 32px 0 #93e5b6, 0 40px 0 #93e5b6;
+}
+.ticket-left:after{
+	content: "";
+	width: 2px;
+	height: 4px;
+	background: #93e5b6;
+	position: absolute;
+	margin: 0px 0 0 90px;
+	box-shadow: 0 6px 0 #93e5b6, 0 12px 0 #93e5b6, 0 18px 0 #93e5b6, 0 24px 0 #93e5b6, 0 30px 0 #93e5b6, 0 36px 0 #93e5b6, 0 42px 0 #93e5b6, 0 48px 0 #93e5b6;
+}
+.ticket-inner{
+	width: 76px;
+	height: 42px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+	position: absolute;
+	margin: 3px 7px;
+}
+.ticket-inner:after{
+	content: "";
+	position: absolute;
+	height: 42px;
+	width: 1px;
+	background: #ddd;
+	margin-left: 12px;
+	box-shadow: 52px 0px 0 #ddd;
+}
+.ticket-zoholics{
+	font-family: 'Roboto', sans-serif;
+	font-size: 9px;
+	position: absolute;
+	color: #666;
+	margin: 10px 0 0 24px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	width: 50px;
+}
+.ticket-zoholics:after{
+	background: #ddd;
+	height: 1px;
+	width: 51px;
+	position: absolute;
+	content: "";
+	margin: 15px 0 0 -48px;
+}
+.ticket-zoholics:before{
+	position: absolute;
+	content: "";
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background: #ddd;
+	margin: 11px 0 0 19px;
+	border: 3px solid #fff;
+	z-index: 10;
+}
+.ticket-admit{
+	position: absolute;
+	font-size: 8px;
+	color: #888;
+	margin: 34px 0 0 23px;
+	letter-spacing: 0.02em;
+}
+.ticket-left-seq{
+	position: absolute;
+	font-size: 8px;
+	color: #999;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	margin: 21px 0 0 -2px;
+	letter-spacing: 0.03em;
+}
+.ticket-right-seq{
+	margin-left: 62px;
+}
+.ticket-barcode{
+	position: absolute;
+	width: 10px;
+	height: 1px;
+	background: #777;
+	margin: 5px 0 0 95px;
+	box-shadow: 0px 1px 0 #777, 0px 3px 0 #777,0px 5px 0 #777,0px 7px 0 #777,0px 8px 0 #777,0px 9px 0 #777,0px 11px 0 #777,0px 13px 0 #777,0px 14px 0 #777,0px 16px 0 #777,0px 18px 0 #777,0px 19px 0 #777,0px 21px 0 #777,0px 23px 0 #777,0px 24px 0 #777,0px 25px 0 #777,0px 27px 0 #777,0px 29px 0 #777,0px 31px 0 #777,0px 33px 0 #777,0px 34px 0 #777,0px 36px 0 #777,0px 38px 0 #777,0px 39px 0 #777,0px 41px 0 #777;
+}
+
+.tshirt{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -35px;
+}
+.tshirt-body{
+	width: 50px;
+	height: 70px;
+	background: #FFF;
+	position: absolute;
+	border-top-left-radius: 30px 10px;
+	border-top-right-radius: 30px 10px;
+	margin-left: 10px;
+}
+.tshirt-body:before{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 25px;
+	background: #fff;
+	margin-left: -10px;
+	margin-top: 5px;
+	border-top-left-radius: 20px 20px;
+}
+.tshirt-body:after{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 25px;
+	background: #fff;
+	margin-left: 44px;
+	margin-top: 5px;
+	border-top-right-radius: 20px 20px;
+}
+.tshirt-sleeve{
+	width: 10px;
+	height: 2px;
+	background: #bf1313;
+	position: absolute;
+	margin: 28px 0 0 -10px;
+	box-shadow: 60px 0 0 #bf1313, 10px 40px 0 #bf1313, 20px 40px 0 #bf1313, 30px 40px 0 #bf1313, 40px 40px 0 #bf1313, 50px 40px 0 #bf1313;
+	z-index: 2;
+}
+.tshirt-neck{
+	width: 26px;
+	height: 10px;
+	border-radius: 50%;
+	background: #bf1313;
+	position: absolute;
+	margin: -4px 0 0 12px;
+	z-index: 2;
+}
+.tshirt-neck:after{
+	background: #80d4a4;
+	width: 26px;
+	height: 10px;
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	z-index: 1;
+	margin-top: -2px;
+}
+.flash-wrapper{
+	background: #bf1313; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bf1313 0%, #a31c10 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf1313), color-stop(100%,#a31c10)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bf1313 0%,#a31c10 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bf1313 0%,#a31c10 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bf1313 0%,#a31c10 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bf1313 0%,#a31c10 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf1313', endColorstr='#a31c10',GradientType=0 ); /* IE6-9 */
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 2px solid #CCC;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -152px;
+	box-shadow: 0px 0px 15px #ccc;
+}
+.flash-container{
+	position: absolute;
+	width: 250px;
+	height: 500px;
+	margin: -130px 0 0 80px;
+}
+.flash-upper{
+	position: absolute;
+}
+.flash-upper-anim{
+	animation: upper-animate 2.4s linear infinite;
+	-webkit-animation: upper-animate 2.4s linear infinite;
+	-moz-animation: upper-animate 2.4s linear infinite;
+}
+.flash-lower{
+	position: absolute;
+}
+.flash-lower-anim{
+	animation: lower-animate 2.4s linear infinite;
+	-webkit-animation: lower-animate 2.4s linear infinite;
+	-moz-animation: lower-animate 2.4s linear infinite;
+}
+.tri-1{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 150px 38px;
+	border-color: transparent transparent #f4c28d transparent;
+	transform: skew(-35deg);
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	margin: 104px;
+	position: absolute;
+	padding-bottom: 2px;
+	z-index: 5;
+}
+.tri-1:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 150px 33px;
+	border-color: transparent transparent #F5D75D transparent;
+	margin-left: -35px;
+	position: absolute;
+}
+.tri-2{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 150px 35px;
+	border-color: transparent transparent #F5D75D transparent;
+	transform: skew(-35deg) rotate(180deg);
+	-webkit-transform: skew(-35deg) rotate(180deg);
+	-moz-transform: skew(-35deg) rotate(180deg);
+	position: absolute;
+	margin: 210px 0 0 57px;
+	z-index: 10;
+}
+.tri-2-back{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 152px 38px;
+	border-color: transparent transparent #f4c28d transparent;
+	transform: skew(-35deg) rotate(180deg);
+	-webkit-transform: skew(-35deg) rotate(180deg);
+	-moz-transform: skew(-35deg) rotate(180deg);
+	position: absolute;
+	margin: 208px 0 0 56px;
+	z-index: 4;
+}
+.tri-3{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 150px 35px;
+	border-color: transparent transparent #F5D75D transparent;
+	transform: skew(-35deg);
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	position: absolute;
+	margin: 210px 0 0 56px;
+	z-index: 10;
+}
+.tri-3-back{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 152px 37px;
+	border-color: transparent transparent #f4c28d transparent;
+	transform: skew(-35deg);
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	position: absolute;
+	margin: 210px 0 0 55px;
+	z-index: 4;
+}
+.tri-4{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 150px 38px;
+	border-color: transparent transparent #f4c28d transparent;
+	position: absolute;
+	margin: 320px 0 0 10px;
+	transform: skew(-35deg) rotate(180deg);
+	-webkit-transform: skew(-35deg) rotate(180deg);
+	-moz-transform: skew(-35deg) rotate(180deg);
+	z-index: 5;
+}
+.tri-4:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0px 148px 32px;
+	border-color: transparent transparent #F5D75D transparent;
+	position: absolute;
+	margin: 0px 0 0 -34px;
 }
