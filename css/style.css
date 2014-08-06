@@ -1,3 +1,42 @@
+a, a:visited, a:link, a:active {
+	color: #a3e599;
+	text-decoration: underline;
+}
+.banner {
+	position: fixed;
+	width: 100%;
+	background: #000;
+	top: 0;
+	color: #FFF;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-weight: lighter;
+	font-size: 13px;
+	z-index: 20;
+}
+.social-banner .text{
+	font-size: 14px;
+	color: #FFF;
+}
+.social-banner {
+	position: fixed;
+	width: 100%;
+	background: #000;
+	bottom: 0;
+	color: #FFF;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-weight: lighter;
+	font-size: 13px;
+	z-index: 100;
+}
+.social-banner span.text {
+	margin-right: 20px;
+	position: relative;
+	top: -4px;
+}
 .box-sized{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -32,6 +71,33 @@
 	top: 50%;
 	left: 50%;
 	position: absolute;
+}
+.top-message{
+	position: absolute;
+	width: 800px;
+	top: 50%;
+	margin-top: -220px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	left: 50%;
+	margin-left: -400px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.bottom-message{
+	position: absolute;
+	width: 800px;
+	top: 50%;
+	margin-top: 190px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	left: 50%;
+	margin-left: -400px;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
 }
 .mac-bottom{
 	width: 12px;
@@ -753,6 +819,9 @@ ul.things>li:nth-child(even){
 	margin-top: -150px;
 	margin-left: -152px;
 	box-shadow: 0px 0px 15px #ccc;
+	transform: scale(0.1);
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
 }
 .flash-container{
 	position: absolute;
